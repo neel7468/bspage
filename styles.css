@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+}
+
+#ipo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ipo-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: 300px;
+    transition: transform 0.2s;
+}
+
+.ipo-card:hover {
+    transform: translateY(-5px);
+}
+
+.company-logo img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.ipo-details {
+    margin-top: 10px;
+}
+
+.company-name {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.ipo-details p {
+    margin: 0.5em 0;
+}
+
+.ipo-details a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.ipo-details a:hover {
+    text-decoration: underline;
+}
